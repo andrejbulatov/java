@@ -22,7 +22,7 @@ public class Task2 {
   }
   // Метод выбора возврата первого элемента списка и его удаление
   private static String dequeue (LinkedList list) {
-    return (String) list.pollFirst();
+    return (String) list.remove();
   }
   // Метод возврата первого элемента списка без его удаления
   private static String first (LinkedList list) {
